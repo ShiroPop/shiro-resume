@@ -1,15 +1,10 @@
 import styled from "styled-components";
 import MenuTitle from "../menuTitle";
-import { BText, GrayText, Grid, Line, Text } from "./ElementStyle";
+import { BText, FlexBetween, GrayText, Grid, Line, Text } from "./ElementStyle";
 import React from "react";
 
 const Container = styled.div`
   padding: 30px 80px 50px 0;
-`;
-
-const FlexBetween = styled.div`
-  display: flex;
-  justify-content: space-between;
 `;
 
 interface activitiesType {
@@ -22,9 +17,13 @@ interface activitiesType {
 
 const Activities = () => {
   const activitiesArray = [
-    { public: false, startDate: new Date(2023, 5, 3), content: "CS 스터디" },
     {
-      public: false,
+      public: true,
+      startDate: new Date(2023, 5, 3),
+      content: "CS - Network 스터디",
+    },
+    {
+      public: true,
       startDate: new Date(2024, 2, 9),
       content: "반려동물 레시피 프로젝트",
       result: "디자인 및 프론트엔드 담당",
@@ -90,9 +89,9 @@ const Activities = () => {
     const year = new Date(date).getFullYear();
     const monthBase = new Date(date).getMonth() + 1;
     const month =
-      monthBase.toString().length == 1 ? "0" + monthBase : monthBase;
+      monthBase.toString().length === 1 ? "0" + monthBase : monthBase;
     const day =
-      new Date(date).getDate().toString().length == 1
+      new Date(date).getDate().toString().length === 1
         ? "0" + new Date(date).getDate()
         : new Date(date).getDate();
     return year + ". " + month + ". " + day;
@@ -104,7 +103,7 @@ const Activities = () => {
       <Grid rowgap="8px">
         {activitiesArray.map((ele, index) => (
           <React.Fragment key={index}>
-            {ele.public == true ? (
+            {ele.public === true ? (
               <>
                 <GrayText key={"date" + index}>
                   {formatDate(ele.startDate)} ~{" "}

@@ -1,12 +1,11 @@
 "use client";
 
 import styled from "styled-components";
-import { IconContext } from "react-icons";
-import { SiNotion, SiGithub } from "react-icons/si";
 import { RiNotionFill, RiGithubFill } from "react-icons/ri";
-import { useState } from "react";
 import MenuTitle from "../menuTitle";
-import { ATag, GrayText, Grid, Line, StyledLinked, Text } from "./ElementStyle";
+import { ATag, GrayText, Grid, Line, Text } from "./ElementStyle";
+import IconComp from "../components/iconComp";
+import profileImage from "./profile.jpg";
 
 const Container = styled.div`
   max-width: 900px;
@@ -19,7 +18,15 @@ const Profile = styled.div`
   width: 260px;
   height: 350px;
   border-radius: 100%;
-  background-color: lightgrey;
+`;
+
+const ProfileImg = styled.img`
+  background-image: url(${profileImage});
+  width: 260px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
 `;
 
 const ContactBox = styled.div`
@@ -90,28 +97,6 @@ const IconBox = styled.div`
   gap: 6px;
 `;
 
-const Github = styled(RiGithubFill)`
-  width: 45px;
-  height: 45px;
-  cursor: pointer;
-  color: ${(props) => props.color || "black"};
-  transform: scale(${(props) => props.transform || "0.9"});
-
-  transition-property: color, transform;
-  transition-duration: 0.3s, 0.3s;
-`;
-
-const Notion = styled(RiNotionFill)`
-  width: 45px;
-  height: 45px;
-  cursor: pointer;
-  color: ${(props) => props.color || "black"};
-  transform: scale(${(props) => props.transform || "0.9"});
-
-  transition-property: color, transform;
-  transition-duration: 0.3s, 0.3s;
-`;
-
 const Education = styled.div`
   margin-top: 190px;
   max-width: 350px;
@@ -122,13 +107,12 @@ const LinkBox = styled.div`
 `;
 
 const MainContent = () => {
-  const [isGithubHovered, setIsGithubHovered] = useState(false);
-  const [isNotionHovered, setIsNotionHovered] = useState(false);
-
   return (
     <>
       <Container>
-        <Profile></Profile>
+        <Profile>
+          <ProfileImg />
+        </Profile>
         <ContactBox>
           <QuoteBox>
             <Quote />
@@ -145,18 +129,14 @@ const MainContent = () => {
             E. jungdev07@gmail.com
           </Contact>
           <IconBox>
-            <Github
-              transform={isGithubHovered ? "1" : "0.9"}
-              onMouseOver={() => setIsGithubHovered(true)}
-              onMouseOut={() => setIsGithubHovered(false)}
-              color={isGithubHovered ? "#f5b32e" : "black"}
-            />
-            <Notion
-              transform={isNotionHovered ? "1" : "0.9"}
-              onMouseOver={() => setIsNotionHovered(true)}
-              onMouseOut={() => setIsNotionHovered(false)}
-              color={isNotionHovered ? "#f5b32e" : "black"}
-            />
+            <IconComp url={`https://github.com/ShiroPop`}>
+              <RiGithubFill size="45px" />
+            </IconComp>
+            <IconComp
+              url={`https://battle-wolverine-ec2.notion.site/401b7e2fbab64630902e8f9d42daf596`}
+            >
+              <RiNotionFill size="45px" />
+            </IconComp>
           </IconBox>
         </ContactBox>
         <Education>
@@ -181,15 +161,18 @@ const MainContent = () => {
             Github
           </GrayText>
           <GrayText fontSize="12px">
-            <ATag href={`https://github.com/Hayeon-Jung`} target="_blank">
-              https://github.com/Hayeon-Jung
+            <ATag href={`https://github.com/ShiroPop`} target="_blank">
+              https://github.com/ShiroPop
             </ATag>
           </GrayText>
           <GrayText fontWeight={700} fontSize="12px">
             Notion
           </GrayText>
           <GrayText fontSize="12px">
-            <ATag href={`https://github.com/Hayeon-Jung`} target="_blank">
+            <ATag
+              href={`https://battle-wolverine-ec2.notion.site/401b7e2fbab64630902e8f9d42daf596`}
+              target="_blank"
+            >
               https://battle-wolverine-ec2.notion.site/401b7e2fbab64630902e8f9d42daf596
             </ATag>
           </GrayText>

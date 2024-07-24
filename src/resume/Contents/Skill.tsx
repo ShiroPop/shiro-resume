@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Grid, Text, Line } from "./ElementStyle";
+import { Grid, Text, Line, BText, Li, Ul } from "./ElementStyle";
 import MenuTitle from "../menuTitle";
 
 const Container = styled.div`
@@ -11,7 +11,34 @@ const Skill = () => {
     <Container>
       <MenuTitle Kr="스킬" Eng="Skill" />
       <Line />
-      <Grid></Grid>
+      <Grid rowgap="20px">
+        <BText>React</BText>
+        <Text>
+          <Ul>
+            <Li>Hook을 사용해 비즈니스 로직을 적절히 분리해 낼 수 있습니다.</Li>
+            <Li>
+              Recoil, React-query, React-hook-form 등을 이용한 상태관리를 할 수
+              있습니다.
+            </Li>
+          </Ul>
+        </Text>
+
+        <BText>HTML/CSS</BText>
+        <Text>
+          <Ul>
+            <Li>웹표준을 지키려 노력합니다.</Li>
+            <Li>css-in-js(Styled-Component)를 활용할 수 있습니다.</Li>
+          </Ul>
+        </Text>
+
+        <BText>JavaScript/TypeScript</BText>
+        <Text>
+          <Ul>
+            <Li>ES2015 이후 자바스크립트 문법에 익숙합니다.</Li>
+            <Li>typescript를 사용하며 적절한 타입을 활용할 수 있습니다.</Li>
+          </Ul>
+        </Text>
+      </Grid>
     </Container>
   );
 };

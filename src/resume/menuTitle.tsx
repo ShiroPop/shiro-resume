@@ -1,10 +1,27 @@
-import { MenuTitleENG, MenuTitleKR } from "./Contents/ElementStyle";
+import {
+  FlexBetween,
+  MenuTitleENG,
+  MenuTitleKR,
+} from "./Contents/ElementStyle";
 
-const MenuTitle = ({ Kr, Eng }: { Kr: string; Eng: string }) => {
+const MenuTitle = ({
+  Kr,
+  Eng,
+  children,
+}: {
+  Kr: string;
+  Eng: string;
+  children?: React.ReactNode;
+}) => {
   return (
     <>
-      <MenuTitleKR>{Kr} </MenuTitleKR>
-      <MenuTitleENG>{Eng}</MenuTitleENG>
+      <FlexBetween>
+        <div>
+          <MenuTitleKR>{Kr} </MenuTitleKR>
+          <MenuTitleENG>{Eng}</MenuTitleENG>
+        </div>
+        <div>{children}</div>
+      </FlexBetween>
     </>
   );
 };
