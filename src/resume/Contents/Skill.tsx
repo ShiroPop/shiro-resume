@@ -3,7 +3,7 @@ import { Grid, Text, Line, BText, Li, Ul } from "./ElementStyle";
 import MenuTitle from "../menuTitle";
 
 const Container = styled.div`
-  padding: 30px 80px 50px 0;
+  padding: 30px 80px 40px 0;
 `;
 
 const Skill = () => {
@@ -17,7 +17,7 @@ const Skill = () => {
           <Ul>
             <Li>Hook을 사용해 비즈니스 로직을 적절히 분리해 낼 수 있습니다.</Li>
             <Li>
-              Recoil, React-query, React-hook-form 등을 이용한 상태관리를 할 수
+              Recoil, React-query, React-hook-form 등을 이용한 상태 관리를 할 수
               있습니다.
             </Li>
           </Ul>
@@ -26,7 +26,7 @@ const Skill = () => {
         <BText>HTML/CSS</BText>
         <Text>
           <Ul>
-            <Li>웹표준을 지키려 노력합니다.</Li>
+            <Li>웹 표준을 지키려 노력합니다.</Li>
             <Li>css-in-js(Styled-Component)를 활용할 수 있습니다.</Li>
           </Ul>
         </Text>
