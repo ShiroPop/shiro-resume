@@ -20,7 +20,7 @@ import { AiOutlineGlobal } from "react-icons/ai";
 import IconComp from "../components/iconComp";
 
 const Container = styled.div`
-  padding: 30px 80px 50px 0;
+  padding: 30px 80px 120px 0;
 `;
 
 const SkillBox = styled.div`

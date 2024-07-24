@@ -3,7 +3,7 @@
 .App {
   font-family: "Noto Sans KR", sans-serif;
   padding: 0;
-  margin: 0;
+  margin: 20px 0;
   min-width: 970px;
   /* background-color: white; */
   display: flex;
