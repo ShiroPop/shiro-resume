@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/shiro-resume/static/css/main.42aed036.css",
-    "main.js": "/shiro-resume/static/js/main.fdcf3c0e.js",
+    "main.css": "/shiro-resume/static/css/main.a228b914.css",
+    "main.js": "/shiro-resume/static/js/main.e34603cd.js",
     "static/js/453.add8919f.chunk.js": "/shiro-resume/static/js/453.add8919f.chunk.js",
+    "static/media/profile.jpg": "/shiro-resume/static/media/profile.50c5dfee26d2b182ff96.jpg",
     "index.html": "/shiro-resume/index.html",
-    "main.42aed036.css.map": "/shiro-resume/static/css/main.42aed036.css.map",
-    "main.fdcf3c0e.js.map": "/shiro-resume/static/js/main.fdcf3c0e.js.map",
+    "main.a228b914.css.map": "/shiro-resume/static/css/main.a228b914.css.map",
+    "main.e34603cd.js.map": "/shiro-resume/static/js/main.e34603cd.js.map",
     "453.add8919f.chunk.js.map": "/shiro-resume/static/js/453.add8919f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42aed036.css",
-    "static/js/main.fdcf3c0e.js"
+    "static/css/main.a228b914.css",
+    "static/js/main.e34603cd.js"
   ]
 }
