@@ -4,7 +4,7 @@ import { BText, FlexBetween, GrayText, Grid, Line, Text } from "./ElementStyle";
 import React from "react";
 
 const Container = styled.div`
-  padding: 30px 80px 50px 0;
+  padding: 30px 80px 40px 0;
 `;
 
 interface activitiesType {
