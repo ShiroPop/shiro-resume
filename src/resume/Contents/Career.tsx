@@ -13,7 +13,7 @@ import {
 import MenuTitle from "../menuTitle";
 
 const Container = styled.div`
-  padding: 30px 80px 50px 0;
+  padding: 30px 80px 40px 0;
 `;
 
 const Career = () => {
@@ -59,7 +59,12 @@ const Career = () => {
             </div>
             <GrayText>프론트엔드개발 매니저</GrayText>
           </FlexBetween>
-          <Text>프로젝트 설명</Text>
+          <Text>
+            음성 데이터 정제(데이터 라벨링) 프로젝트에 필요한 기본적인 웹 서비스
+            개발을 담당하였습니다. 개발은 물론 프로젝트 개발에 필요한 각종
+            규칙들을 만들고 문서화하여 정리하고 관리하는 일을 자발적으로 맡아
+            담당했습니다.
+          </Text>
           <Ul padding="5px 0 0 20px">
             <Li>React 기본 개념서 작성</Li>
             <Li>클리브웍스 프로젝트 참여</Li>
