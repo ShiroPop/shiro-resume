@@ -90,7 +90,7 @@ const Project = () => {
           <SkillBox>
             <ButtonStyle>NextJS</ButtonStyle>
             <ButtonStyle>Styled Components</ButtonStyle>
-            <ButtonStyle>Prisam</ButtonStyle>
+            <ButtonStyle>Prisma</ButtonStyle>
             <ButtonStyle>GitHub</ButtonStyle>
             <ButtonStyle>Swagger</ButtonStyle>
             <ButtonStyle>Jira</ButtonStyle>
