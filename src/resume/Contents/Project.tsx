@@ -52,8 +52,7 @@ const Project = () => {
           </FlexBetween>
           <Text fontSize="14px">
             연인의 취향을 히트! 연인 선물 AI 추천 서비스입니다. 4인 중 홀로
-            프론트를 담당하여 디자인부터 프론트개발까지 담당하여 시간 관리에
-            어려움이 있었습니다.
+            프론트를 담당하여 디자인부터 프론트 개발까지 담당하였습니다.
           </Text>
           <Ul padding="8px 0 0 20px" fontSize="14px">
             <Li>프로젝트 아이디어 기획</Li>
@@ -122,9 +121,9 @@ const Project = () => {
             </div>
           </FlexBetween>
           <Text fontSize="14px">
-            쿼리 변환기 프로젝트로 DB 이관을 도와줄 수 있는 웹 Query 번역기를
-            제작했습니다. B 팀에서 웹 개발을 담당하였으며, Oracle쿼리문을
-            PostgreSQL쿼리문으로 변환해 주는 서비스입니다.
+            Oracle 쿼리문을 PostgreSQL 쿼리문으로 변환해 주는 서비스로, DB
+            이관을 도와줄 수 있는 웹 Query 번역기를 제작하는 프로젝트에서 웹
+            개발 영역을 담당했습니다.
           </Text>
           <Ul padding="8px 0 0 20px" fontSize="14px">
             <Li>팀장으로써 팀원들의 개발 환경 통일</Li>
@@ -167,9 +166,9 @@ const Project = () => {
             </div>
           </FlexBetween>
           <Text fontSize="14px">
-            첫 프로젝트로 영화관 웹서비스를 리디자인하여 클론 코딩해보았습니다.
-            소외받는 노년층을 대상으로 화면 구성을 간략화하여 UIUX 디자인
-            했습니다.
+            첫 프로젝트로 영화관 웹서비스를 리디자인하여 클론 코딩해 보았습니다.
+            소외받는 노년층을 대상으로 화면 구성을 간략화하여 UIUX
+            디자인했습니다.
           </Text>
           <Ul padding="8px 0 0 20px" fontSize="14px">
             <Li>프로젝트 화면 설계 및 데이터베이스 설계</Li>

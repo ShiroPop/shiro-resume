@@ -119,7 +119,8 @@ const MainContent = () => {
             <Quote />
           </QuoteBox>
           <Title>
-            <Bold>협업</Bold>할 줄 아는 <br /> <Bold>프론트엔드</Bold> 개발자
+            <Bold>함께 </Bold>성취 할 줄 아는 <br /> <Bold>프론트엔드</Bold>{" "}
+            개발자
             <br />
             정하연입니다.
           </Title>
@@ -143,7 +144,7 @@ const MainContent = () => {
           <MenuTitle Kr="학력" Eng="Education" />
           <Line width="350px" />
           <Grid columns="70px 1fr" gap="0px" rowgap="0">
-            <GrayText fontSize="14px">2016. 02</GrayText>
+            <GrayText fontSize="14px">2019. 02</GrayText>
             <Text fontSize="14px">삼각산고등학교 졸업</Text>
             <GrayText fontSize="14px">2020. 03</GrayText>
             <Text fontSize="14px">대진대학교 한국화 입학</Text>
