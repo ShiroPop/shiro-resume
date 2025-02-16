@@ -20,11 +20,13 @@ const Activities = () => {
     {
       public: true,
       startDate: new Date(2023, 5, 3),
+      endDate: new Date(2024, 6, 24),
       content: "CS - Network 스터디",
     },
     {
       public: true,
       startDate: new Date(2024, 2, 9),
+      endDate: new Date(2024, 11, 16),
       content: "반려동물 레시피 프로젝트",
       result: "디자인 및 프론트엔드 담당",
     },
@@ -59,6 +61,7 @@ const Activities = () => {
     {
       public: true,
       startDate: new Date(2023, 9, 1),
+      endDate: new Date(2024, 6, 26),
       content: "GDSC DJU 3기 ",
       result: "프론트엔드 포지션 합격",
     },
