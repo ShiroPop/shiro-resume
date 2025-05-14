@@ -19,7 +19,7 @@ const Activities = () => {
   const activitiesArray = [
     {
       public: true,
-      startDate: new Date(2023, 9, 1),
+      startDate: new Date(2024, 9, 1),
       content: "GDSC DJU 4기 ",
       result: "프론트엔드 포지션 활동",
     },
