@@ -148,10 +148,10 @@ const MainContent = () => {
             <Text fontSize="14px">삼각산고등학교 졸업</Text>
             <GrayText fontSize="14px">2020. 03</GrayText>
             <Text fontSize="14px">대진대학교 한국화 입학</Text>
-            <GrayText fontSize="14px">2024. 03</GrayText>
+            <GrayText fontSize="14px">2025. 02</GrayText>
             <Text fontSize="14px">
               대진대학교 시각디자인 전공 <br />
-              컴퓨터공학 복수전공 재학 (4학년)
+              컴퓨터공학 복수전공 졸업
             </Text>
           </Grid>
         </Education>
