@@ -38,6 +38,14 @@ const Skill = () => {
             <Li>typescript를 사용하며 적절한 타입을 활용할 수 있습니다.</Li>
           </Ul>
         </Text>
+
+        <BText>Figma</BText>
+        <Text>
+          <Ul>
+            <Li>디자인 시스템을 정리하여 적용할 수 있습니다.</Li>
+            <Li>컴포넌트화하여 상태를 관리할 수 있습니다.</Li>
+          </Ul>
+        </Text>
       </Grid>
     </Container>
   );
