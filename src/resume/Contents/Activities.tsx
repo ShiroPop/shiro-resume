@@ -27,7 +27,7 @@ const Activities = () => {
       public: true,
       startDate: new Date(2024, 9, 1),
       content: "GDSC DJU 4기 ",
-      result: "프론트엔드 포지션 활동",
+      result: "프론트엔드 포지션 활동 및 디자이너 면접관",
     },
     {
       public: true,
