@@ -56,12 +56,19 @@ const Project = () => {
           </Text>
           <Ul padding="8px 0 0 20px" fontSize="14px">
             <Li>프로젝트 아이디어 기획</Li>
-            <Li>화면 디자인 및 목업</Li>
+            <Li>힉-하이먼 법칙을 고려한 인터랙션 디자인 및 목업</Li>
             <Li>소셜 로그인 및 문답 답변에 대한 상태 관리</Li>
+            <Li>Google Cloud Platform의 Vertex AI 사용</Li>
+            <Li>Naver OpenAPI의 검색 API 사용</Li>
+            <Li>무료 아이콘 사이트(Flaticon)에서 키워드 관련 이미지 크롤링</Li>
+            <Li>GDSC NewYear 해커톤 입선</Li>
           </Ul>
           <SkillBox>
             <ButtonStyle>NextJS</ButtonStyle>
+            <ButtonStyle>Typescript</ButtonStyle>
             <ButtonStyle>Styled Components</ButtonStyle>
+            <ButtonStyle>Recoil</ButtonStyle>
+            <ButtonStyle>React Query</ButtonStyle>
             <ButtonStyle>GitHub</ButtonStyle>
             <ButtonStyle>Swagger</ButtonStyle>
             <ButtonStyle>Notion</ButtonStyle>
@@ -88,7 +95,10 @@ const Project = () => {
           </Ul>
           <SkillBox>
             <ButtonStyle>NextJS</ButtonStyle>
+            <ButtonStyle>Typescript</ButtonStyle>
             <ButtonStyle>Styled Components</ButtonStyle>
+            <ButtonStyle>Recoil</ButtonStyle>
+            <ButtonStyle>React Query</ButtonStyle>
             <ButtonStyle>Prisma</ButtonStyle>
             <ButtonStyle>GitHub</ButtonStyle>
             <ButtonStyle>Swagger</ButtonStyle>
