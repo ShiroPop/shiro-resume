@@ -19,13 +19,19 @@ const Activities = () => {
   const activitiesArray = [
     {
       public: true,
+      startDate: new Date(2025, 1, 21),
+      content: "Cubco",
+      result: "프론트엔드 담당",
+    },
+    {
+      public: true,
       startDate: new Date(2024, 9, 1),
       content: "GDSC DJU 4기 ",
       result: "프론트엔드 포지션 활동",
     },
     {
       public: true,
-      startDate: new Date(2023, 5, 3),
+      startDate: new Date(2024, 5, 3),
       endDate: new Date(2024, 6, 24),
       content: "CS - Network 스터디",
     },
