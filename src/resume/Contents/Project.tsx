@@ -152,6 +152,7 @@ const Project = () => {
           </Ul>
           <SkillBox>
             <ButtonStyle>React</ButtonStyle>
+            <ButtonStyle>Javascript</ButtonStyle>
             <ButtonStyle>DBeaver</ButtonStyle>
             <ButtonStyle>TailwindCSS</ButtonStyle>
             <ButtonStyle>GitHub</ButtonStyle>
@@ -181,7 +182,9 @@ const Project = () => {
             디자인했습니다.
           </Text>
           <Ul padding="8px 0 0 20px" fontSize="14px">
-            <Li>프로젝트 화면 설계 및 데이터베이스 설계</Li>
+            <Li>flex를 사용한 반응형 웹 디자인</Li>
+            <Li>데이터베이스 설계</Li>
+            <Li>리뷰의 별점순, 최신순 노출 설계</Li>
             <Li>PHP와 mySQL을 사용한 CRUD 작업</Li>
           </Ul>
           <SkillBox>
