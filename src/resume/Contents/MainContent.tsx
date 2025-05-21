@@ -104,6 +104,10 @@ const Education = styled.div`
 
 const LinkBox = styled.div`
   margin: 30px 0;
+
+  // @media screen and (max-width: 639px) {
+  //   display: none;
+  // }
 `;
 
 const MainContent = () => {
@@ -127,7 +131,7 @@ const MainContent = () => {
           <ShortLine />
           <Contact>
             M. 010 9137 7375 <br />
-            E. jungdev07@gmail.com
+            E. jhy000714@gmail.com
           </Contact>
           <IconBox>
             <IconComp url={`https://github.com/ShiroPop`}>
