@@ -34,7 +34,7 @@ const Project = () => {
       <Line />
       <Grid>
         <div>
-          <GrayText>2024. 01. 12 ~ 2024. 01. 13</GrayText>
+          <GrayText fontWeight={500}>2024. 01. 12 ~ 2024. 01. 13</GrayText>
           <FlexRight padding="4px 25px 0 0">
             <GrayText fontSize="14px">총 4인 - FE1, BE2, ML1</GrayText>
           </FlexRight>
@@ -57,14 +57,14 @@ const Project = () => {
             </div>
           </FlexBetween>
           <Text fontSize="14px">
-            연인의 취향을 히트! 연인 선물 AI 추천 서비스입니다. 4인 중 홀로
-            프론트를 담당하여 디자인부터 프론트 개발까지 담당하였습니다.
+            연인의 취향을 히트! 연인 선물 추천해 줄 수 있는 Google Cloud
+            Platform의 Vertex AI를 사용한 서비스입니다. 4인 중 홀로 프론트를
+            담당하여 디자인부터 프론트 개발까지 담당하였습니다.
           </Text>
           <Ul padding="8px 0 0 20px" fontSize="14px">
             <Li>프로젝트 아이디어 기획</Li>
             <Li>힉-하이먼 법칙을 고려한 인터랙션 디자인 및 목업</Li>
             <Li>소셜 로그인 및 문답 답변에 대한 상태 관리</Li>
-            <Li>Google Cloud Platform의 Vertex AI 사용</Li>
             <Li>Naver OpenAPI의 검색 API 사용</Li>
             <Li>무료 아이콘 사이트(Flaticon)에서 키워드 관련 이미지 크롤링</Li>
             <Li>GDSC NewYear 해커톤 입선</Li>
@@ -81,7 +81,7 @@ const Project = () => {
           </SkillBox>
         </div>
 
-        <GrayText>2022. 11. 21 ~ 2023. 06. 23</GrayText>
+        <GrayText fontWeight={500}>2022. 11. 21 ~ 2023. 06. 23</GrayText>
         <div>
           <FlexBetween>
             <div>
@@ -118,7 +118,7 @@ const Project = () => {
         </div>
 
         <div>
-          <GrayText>2022. 09. 05 ~ 2022. 11. 25</GrayText>
+          <GrayText fontWeight={500}>2022. 09. 05 ~ 2022. 11. 25</GrayText>
           <FlexRight padding="4px 25px 0 0">
             <GrayText fontSize="14px">총 9인 - FE4, 자료조사5</GrayText>
           </FlexRight>
@@ -175,7 +175,7 @@ const Project = () => {
         </div>
 
         <div>
-          <GrayText>2022. 05. 28 ~ 2022. 06. 15</GrayText>
+          <GrayText fontWeight={500}>2022. 05. 28 ~ 2022. 06. 15</GrayText>
           <FlexRight padding="4px 25px 0 0">
             <GrayText fontSize="14px"> 1인 - FE, BE</GrayText>
           </FlexRight>
