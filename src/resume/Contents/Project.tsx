@@ -120,7 +120,7 @@ const Project = () => {
         <div>
           <GrayText>2022. 09. 05 ~ 2022. 11. 25</GrayText>
           <FlexRight padding="4px 25px 0 0">
-            <GrayText fontSize="14px">총 4인 - FE4</GrayText>
+            <GrayText fontSize="14px">총 9인 - FE4, 자료조사5</GrayText>
           </FlexRight>
           <FlexRight padding="8px 25px 0 0">
             <IconComp
