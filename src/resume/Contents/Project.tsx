@@ -199,6 +199,9 @@ const Project = () => {
             디자인했습니다.
           </Text>
           <Ul padding="8px 0 0 20px" fontSize="14px">
+            <Li>최신 영화 등록 서비스</Li>
+            <Li>영화 소개의 트레일러 자동 재생</Li>
+            <Li>간략화 한 영화 예매 시스템</Li>
             <Li>flex를 사용한 반응형 웹 디자인</Li>
             <Li>데이터베이스 설계</Li>
             <Li>리뷰의 별점순, 최신순 노출 설계</Li>
