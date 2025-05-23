@@ -14,7 +14,7 @@ import {
   ButtonStyle,
 } from "./ElementStyle";
 import MenuTitle from "../menuTitle";
-import { RiNotionFill } from "react-icons/ri";
+import { RiNotionFill, RiGithubFill } from "react-icons/ri";
 import { AiOutlineGlobal } from "react-icons/ai";
 
 import IconComp from "../components/iconComp";
@@ -35,11 +35,17 @@ const Project = () => {
       <Grid>
         <div>
           <GrayText>2024. 01. 12 ~ 2024. 01. 13</GrayText>
-          <FlexRight padding="5px 25px 0 0">
+          <FlexRight padding="4px 25px 0 0">
+            <GrayText fontSize="14px">총 4인 - FE1, BE2, ML1</GrayText>
+          </FlexRight>
+          <FlexRight padding="8px 25px 0 0">
             <IconComp
               url={`https://battle-wolverine-ec2.notion.site/1f5db94fab5c42659d30013248ffe9ea?pvs=4`}
             >
               <RiNotionFill size="30px" />
+            </IconComp>
+            <IconComp url={`https://github.com/GDSC-NewYear-TEAM-U/frontend`}>
+              <RiGithubFill size="30px" />
             </IconComp>
           </FlexRight>
         </div>
@@ -113,7 +119,10 @@ const Project = () => {
 
         <div>
           <GrayText>2022. 09. 05 ~ 2022. 11. 25</GrayText>
-          <FlexRight padding="5px 25px 0 0">
+          <FlexRight padding="4px 25px 0 0">
+            <GrayText fontSize="14px">총 4인 - FE4</GrayText>
+          </FlexRight>
+          <FlexRight padding="8px 25px 0 0">
             <IconComp
               margin="1px 0 0 0"
               url={`https://arty0928.github.io/Oracle-Postgresql-/`}
@@ -124,6 +133,9 @@ const Project = () => {
               url={`https://battle-wolverine-ec2.notion.site/RMSoft-Query-Converter-a5d4e1cecb68487cb71dd4c952c04ff5?pvs=4`}
             >
               <RiNotionFill size="30px" />
+            </IconComp>
+            <IconComp url={`https://github.com/arty0928/Oracle-Postgresql-`}>
+              <RiGithubFill size="30px" />
             </IconComp>
           </FlexRight>
         </div>
@@ -164,7 +176,10 @@ const Project = () => {
 
         <div>
           <GrayText>2022. 05. 28 ~ 2022. 06. 15</GrayText>
-          <FlexRight padding="5px 25px 0 0">
+          <FlexRight padding="4px 25px 0 0">
+            <GrayText fontSize="14px"> 1인 - FE, BE</GrayText>
+          </FlexRight>
+          <FlexRight padding="8px 25px 0 0">
             <IconComp
               url={`https://battle-wolverine-ec2.notion.site/8fd12168a3334d1ab8b947766f3c02c5?pvs=4`}
             >
