@@ -89,14 +89,17 @@ const Project = () => {
           </Text>
           <Ul padding="8px 0 0 20px" fontSize="14px">
             <Li>프로젝트 화면 기획</Li>
-            <Li>규칙·명세서·디자인 시스템 제안</Li>
-            <Li>공통 컴포넌트(모달 및 오프캔버스 등 제작)</Li>
+            <Li>개발 규칙·명세서·디자인 시스템 제안을 통한 UI 통일</Li>
+            <Li>공통 컴포넌트(모달 및 오프캔버스 등)제작</Li>
+            <Li>React-Query 를 이용한 비동기 데이터 캐싱 관리</Li>
+            <Li>useInfiniteQuery를 사용한 무한 스크롤 테이블</Li>
             <Li>가 데이터(Prisma)를 활용한 테스트</Li>
           </Ul>
           <SkillBox>
             <ButtonStyle>NextJS</ButtonStyle>
             <ButtonStyle>Typescript</ButtonStyle>
             <ButtonStyle>Styled Components</ButtonStyle>
+            <ButtonStyle>React Hook Form</ButtonStyle>
             <ButtonStyle>Recoil</ButtonStyle>
             <ButtonStyle>React Query</ButtonStyle>
             <ButtonStyle>Prisma</ButtonStyle>
@@ -146,9 +149,8 @@ const Project = () => {
               </ATag>
               정리 및 공유
             </Li>
-            <Li>변환 과정 알고리즘 구상</Li>
-            <Li>최종 보고 시각자료 제작</Li>
-            <Li>최종 보고회 발표자</Li>
+            <Li>쿼리문 변환 과정 알고리즘 구상</Li>
+            <Li>TailwindCSS를 사용하여 반응형 웹 적용</Li>
           </Ul>
           <SkillBox>
             <ButtonStyle>React</ButtonStyle>
