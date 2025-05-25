@@ -28,7 +28,7 @@ const Activities = () => {
       startDate: new Date(2025, 1, 6),
       endDate: new Date(2025, 1, 9),
       content: "ㄱㅉㄴ연구소",
-      result: "EMON - UXUI 작품 전시",
+      result: "EMONE - UXUI 개인 작품 전시",
     },
     {
       public: true,
