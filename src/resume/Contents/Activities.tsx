@@ -25,8 +25,15 @@ const Activities = () => {
     },
     {
       public: true,
+      startDate: new Date(2025, 1, 6),
+      endDate: new Date(2025, 1, 9),
+      content: "ㄱㅉㄴ연구소",
+      result: "EMON - UXUI 작품 전시",
+    },
+    {
+      public: true,
       startDate: new Date(2024, 9, 1),
-      content: "GDSC DJU 4기 ",
+      content: "GDG DJU 4기 ",
       result: "프론트엔드 포지션 활동 및 디자이너 면접관",
     },
     {
