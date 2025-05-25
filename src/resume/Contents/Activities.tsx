@@ -20,21 +20,21 @@ const Activities = () => {
     {
       public: true,
       startDate: new Date(2025, 1, 21),
-      content: "Cubco",
-      result: "프론트엔드 담당",
+      content: "Cubco - 카페 리뷰, 쿠폰 적립 앱",
+      result: "프로젝트 - 프론트엔드 담당",
     },
     {
       public: true,
       startDate: new Date(2025, 1, 6),
       endDate: new Date(2025, 1, 9),
       content: "ㄱㅉㄴ연구소",
-      result: "EMONE - UXUI 개인 작품 전시",
+      result: "전시 - EMONE, UXUI 개인 작품 전시",
     },
     {
       public: true,
       startDate: new Date(2024, 9, 1),
-      content: "GDG DJU 4기 ",
-      result: "프론트엔드 포지션 활동 및 디자이너 면접관",
+      content: "GDG DJU 4기",
+      result: "동아리 - 프론트엔드 포지션 활동 및 디자이너 면접관",
     },
     {
       public: true,
@@ -46,22 +46,22 @@ const Activities = () => {
       public: true,
       startDate: new Date(2024, 2, 9),
       endDate: new Date(2024, 11, 16),
-      content: "반려동물 레시피 프로젝트",
-      result: "디자인 및 프론트엔드 담당",
+      content: "Dogker - 반려동물 레시피 프로젝트",
+      result: "프로젝트 - 디자인 및 프론트엔드 담당",
     },
     {
       public: false,
       startDate: new Date(2024, 0, 25),
       endDate: new Date(2024, 5, 5),
       content: "감정일기 프로젝트",
-      result: "디자인 및 프론트엔드 담당",
+      result: "프로젝트 - 디자인 및 프론트엔드 담당",
     },
     {
       public: false,
       startDate: new Date(2024, 0, 25),
       endDate: new Date(2024, 3, 5),
       content: "웹 러닝 프로젝트",
-      result: "디자인 및 프론트엔드 담당",
+      result: "프로젝트 - 디자인 및 프론트엔드 담당",
     },
 
     {
@@ -69,7 +69,7 @@ const Activities = () => {
       startDate: new Date(2024, 0, 12),
       endDate: new Date(2024, 0, 13),
       content: "GDSC NewYear 해커톤",
-      result: "U팀 프론트엔드 담당, 입선",
+      result: "해커톤 - U팀 프론트엔드 담당, 입선",
     },
     {
       public: false,
@@ -81,8 +81,8 @@ const Activities = () => {
       public: true,
       startDate: new Date(2023, 9, 1),
       endDate: new Date(2024, 6, 26),
-      content: "GDSC DJU 3기 ",
-      result: "프론트엔드 포지션 합격",
+      content: "GDSC DJU 3기",
+      result: "동아리 - 프론트엔드 포지션 합격",
     },
     {
       public: true,
