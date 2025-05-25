@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Grid, BText, Text, Line, MText } from "./ElementStyle";
+import { Grid, BText, Text, Line, MText, ATag, GrayText } from "./ElementStyle";
 import MenuTitle from "../menuTitle";
 
 const Container = styled.div`
@@ -32,7 +32,7 @@ const Introduction = () => {
           맞추어
           <MText> 컴포넌트화</MText>하는 등 개발 규칙을 제안하고 관리했습니다.
         </Text>
-        <div>
+        {/* <div>
           <BTextQuote>″안돼요″</BTextQuote>
           <BText fontSize="14.5px">
             보다는
@@ -50,11 +50,30 @@ const Introduction = () => {
             문제를 해결
           </MText>
           하고자 했습니다.
+        </Text> */}
+        <div>
+          <BText fontSize="14.5px">
+            어떤 일도 유쾌하게 <br /> 풀어내기 위해 노력하는 사람
+          </BText>
+        </div>
+        <Text fontSize="14px">
+          게임 개발 프로젝트에 디자이너로 소속되어있었을 때, 개발자 한 분이
+          '화면 클릭을 방지하는 방법을 모르겠다.'며 어려움을 호소하셨습니다.
+          저는 이 문제를 듣고, 문제를 해결하면서도 쳐져있는 분위기를 띄울 수
+          있는 아이디어를 떠올렸습니다. 코로나로 비대면 면접을 진행하던 한
+          면접자가 떨리지 않는 방법을 알아냈다며 올린{" "}
+          <MText fontSize="14px">
+            <ATag href={`https://i.imgur.com/agwGyVH.png`} target="_blank">
+              하나의 사진
+            </ATag>
+          </MText>
+          <GrayText fontSize="12px">(클릭하면 확인하실 수 있습니다.)</GrayText>
+          을 첨부하여, 분위기도 띄우고 어려움도 극복해낼 수 있었습니다.
         </Text>
         <BText fontSize="14.5px">
-          해야할 일을 정돈하고
-          <br />
-          놓치지 않으려는 꼼꼼한 사람
+          {/* 해야할 일을 정돈하고 <br />
+          놓치지 않으려는 꼼꼼한 사람 */}
+          의지할 수 있는 <br /> 받침대가 되려는 사람
         </BText>
         <Text fontSize="14px">
           사소한 부분에서 통일성이 흐트러져 오류를 바로잡고 문구를 수정하느라
