@@ -53,7 +53,8 @@ const Introduction = () => {
         </Text> */}
         <div>
           <BText fontSize="14.5px">
-            어떤 일도 유쾌하게 <br /> 풀어내기 위해 노력하는 사람
+            {/* 어떤 일도 유쾌하게 <br /> 풀어내기 위해 노력하는 사람 */}
+            일상생활 속에서 <br /> 답을 찾아내는 사람
           </BText>
         </div>
         <Text fontSize="14px">
