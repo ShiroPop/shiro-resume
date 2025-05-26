@@ -81,7 +81,7 @@ const Bold = styled.span`
 
 const ShortLine = styled.div`
   width: 17px;
-  height: 55px;
+  height: 120px;
   border-bottom: black solid;
 `;
 
@@ -133,7 +133,7 @@ const MainContent = () => {
             M. 010 9137 7375 <br />
             E. jhy000714@gmail.com
           </Contact>
-          <IconBox>
+          {/* <IconBox>
             <IconComp url={`https://github.com/ShiroPop`}>
               <RiGithubFill size="45px" />
             </IconComp>
@@ -142,7 +142,7 @@ const MainContent = () => {
             >
               <RiNotionFill size="45px" />
             </IconComp>
-          </IconBox>
+          </IconBox> */}
         </ContactBox>
         <Education>
           <MenuTitle Kr="학력" Eng="Education" />
@@ -160,7 +160,7 @@ const MainContent = () => {
           </Grid>
         </Education>
       </Container>
-      <LinkBox>
+      {/* <LinkBox>
         <Grid columns="55px 1fr" gap="0" rowgap="0">
           <GrayText fontWeight={700} fontSize="12px">
             Github
@@ -182,7 +182,7 @@ const MainContent = () => {
             </ATag>
           </GrayText>
         </Grid>
-      </LinkBox>
+      </LinkBox> */}
     </>
   );
 };
