@@ -81,7 +81,7 @@ const Bold = styled.span`
 
 const ShortLine = styled.div`
   width: 17px;
-  height: 120px;
+  height: 55px;
   border-bottom: black solid;
 `;
 
@@ -133,16 +133,16 @@ const MainContent = () => {
             M. 010 9137 7375 <br />
             E. jhy000714@gmail.com
           </Contact>
-          {/* <IconBox>
+          <IconBox>
             <IconComp url={`https://github.com/ShiroPop`}>
               <RiGithubFill size="45px" />
             </IconComp>
-            <IconComp
+            {/* <IconComp
               url={`https://battle-wolverine-ec2.notion.site/401b7e2fbab64630902e8f9d42daf596`}
             >
               <RiNotionFill size="45px" />
-            </IconComp>
-          </IconBox> */}
+            </IconComp> */}
+          </IconBox>
         </ContactBox>
         <Education>
           <MenuTitle Kr="학력" Eng="Education" />
