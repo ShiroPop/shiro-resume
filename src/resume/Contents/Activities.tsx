@@ -19,6 +19,11 @@ const Activities = () => {
   const activitiesArray = [
     {
       public: true,
+      startDate: new Date(2025, 6, 1),
+      content: "웅진씽크빅 유데미 풀스택 부트캠프 5회차",
+    },
+    {
+      public: false,
       startDate: new Date(2025, 1, 21),
       content: "Cubco - 카페 리뷰, 쿠폰 적립 앱",
       result: "프로젝트 - 프론트엔드 담당",
@@ -33,6 +38,7 @@ const Activities = () => {
     {
       public: true,
       startDate: new Date(2024, 9, 1),
+      endDate: new Date(2025, 6, 11),
       content: "GDG DJU 4기",
       result: "동아리 - 프론트엔드 포지션 활동 및 디자이너 면접관",
     },
@@ -110,12 +116,9 @@ const Activities = () => {
   const formatDate = (date: Date) => {
     const year = new Date(date).getFullYear();
     const monthBase = new Date(date).getMonth() + 1;
-    const month =
-      monthBase.toString().length === 1 ? "0" + monthBase : monthBase;
+    const month = monthBase.toString().length === 1 ? "0" + monthBase : monthBase;
     const day =
-      new Date(date).getDate().toString().length === 1
-        ? "0" + new Date(date).getDate()
-        : new Date(date).getDate();
+      new Date(date).getDate().toString().length === 1 ? "0" + new Date(date).getDate() : new Date(date).getDate();
     return year + ". " + month + ". " + day;
   };
   return (
@@ -128,8 +131,7 @@ const Activities = () => {
             {ele.public === true ? (
               <>
                 <GrayText key={"date" + index}>
-                  {formatDate(ele.startDate)} ~{" "}
-                  {ele.endDate ? formatDate(ele.endDate) : ""}
+                  {formatDate(ele.startDate)} ~ {ele.endDate ? formatDate(ele.endDate) : ""}
                 </GrayText>
                 <FlexBetween key={"content" + index}>
                   <BText>{ele.content}</BText>
