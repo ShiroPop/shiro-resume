@@ -39,9 +39,7 @@ const Project = () => {
             <GrayText fontSize="14px">총 4인 - FE1, BE2, ML1</GrayText>
           </FlexRight>
           <FlexRight padding="8px 25px 0 0">
-            <IconComp
-              url={`https://battle-wolverine-ec2.notion.site/1f5db94fab5c42659d30013248ffe9ea?pvs=4`}
-            >
+            <IconComp url={`https://battle-wolverine-ec2.notion.site/1f5db94fab5c42659d30013248ffe9ea?pvs=4`}>
               <RiNotionFill size="30px" />
             </IconComp>
             <IconComp url={`https://github.com/GDSC-NewYear-TEAM-U/frontend`}>
@@ -57,9 +55,8 @@ const Project = () => {
             </div>
           </FlexBetween>
           <Text fontSize="14px">
-            연인의 취향을 히트! 연인 선물 추천해 줄 수 있는 Google Cloud
-            Platform의 Vertex AI를 사용한 서비스입니다. 4인 중 홀로 프론트를
-            담당하여 디자인부터 프론트 개발까지 담당하였습니다.
+            연인의 취향을 히트! 연인 선물 추천해 줄 수 있는 Google Cloud Platform의 Vertex AI를 사용한 서비스입니다. 4인
+            중 홀로 프론트를 담당하여 디자인부터 프론트 개발까지 담당하였습니다.
           </Text>
           <Ul padding="8px 0 0 20px" fontSize="14px">
             <Li>프로젝트 아이디어 기획</Li>
@@ -90,17 +87,13 @@ const Project = () => {
             </div>
           </FlexBetween>
           <Text fontSize="14px">
-            음성 데이터 정제(데이터 라벨링) 프로젝트에 필요한 기본적인 웹 서비스
-            개발을 담당했습니다.
+            음성 데이터 정제(데이터 라벨링) 프로젝트에 필요한 기본적인 웹 서비스 개발을 담당했습니다.
           </Text>
           <Ul padding="8px 0 0 20px" fontSize="14px">
             <Li>프로젝트 화면 기획</Li>
             <Li>개발 규칙·명세서·디자인 시스템 제안을 통한 UI 통일</Li>
             <Li>공통 컴포넌트(모달 및 오프캔버스 등)제작</Li>
-            <Li>
-              랜딩 페이지, 계좌 등록 및 인증, 관리자 작업 등록 및 조회, 알림
-              페이지 개발
-            </Li>
+            <Li>랜딩 페이지, 계좌 등록 및 인증, 관리자 작업 등록 및 조회, 알림 페이지 개발</Li>
             <Li>React-Query 를 이용한 비동기 데이터 캐싱 관리</Li>
             <Li>useInfiniteQuery를 사용한 무한 스크롤 테이블</Li>
             <Li>가 데이터(Prisma)를 활용한 테스트</Li>
@@ -127,10 +120,7 @@ const Project = () => {
             <GrayText fontSize="14px">총 9인 - FE4, 자료조사5</GrayText>
           </FlexRight>
           <FlexRight padding="8px 25px 0 0">
-            <IconComp
-              margin="1px 0 0 0"
-              url={`https://arty0928.github.io/Oracle-Postgresql-/`}
-            >
+            <IconComp margin="1px 0 0 0" url={`https://arty0928.github.io/Oracle-Postgresql-/`}>
               <AiOutlineGlobal size="27px" />
             </IconComp>
             <IconComp
@@ -150,9 +140,8 @@ const Project = () => {
             </div>
           </FlexBetween>
           <Text fontSize="14px">
-            Oracle 쿼리문을 PostgreSQL 쿼리문으로 변환해 주는 서비스로, DB
-            이관을 도와줄 수 있는 웹 Query 번역기를 제작하는 프로젝트에서 웹
-            개발 영역을 담당했습니다.
+            Oracle 쿼리문을 PostgreSQL 쿼리문으로 변환해 주는 서비스로, DB 이관을 도와줄 수 있는 웹 Query 번역기를
+            제작하는 프로젝트에서 웹 개발 영역을 담당했습니다.
           </Text>
           <Ul padding="8px 0 0 20px" fontSize="14px">
             <Li>팀장으로써 팀원들의 개발 환경 통일</Li>
@@ -184,9 +173,7 @@ const Project = () => {
             <GrayText fontSize="14px"> 1인 - FE, BE</GrayText>
           </FlexRight>
           <FlexRight padding="8px 25px 0 0">
-            <IconComp
-              url={`https://battle-wolverine-ec2.notion.site/8fd12168a3334d1ab8b947766f3c02c5?pvs=4`}
-            >
+            <IconComp url={`https://battle-wolverine-ec2.notion.site/8fd12168a3334d1ab8b947766f3c02c5?pvs=4`}>
               <RiNotionFill size="30px" />
             </IconComp>
           </FlexRight>
@@ -198,9 +185,8 @@ const Project = () => {
             </div>
           </FlexBetween>
           <Text fontSize="14px">
-            첫 프로젝트로 영화관 웹서비스를 리디자인하여 클론 코딩해 보았습니다.
-            소외받는 노년층을 대상으로 화면 구성을 간략화하여 UIUX
-            디자인했습니다.
+            첫 프로젝트로 영화관 웹서비스를 리디자인하여 클론 코딩해 보았습니다. 소외받는 노년층을 대상으로 화면 구성을
+            간략화하여 UIUX 디자인했습니다.
           </Text>
           <Ul padding="8px 0 0 20px" fontSize="14px">
             <Li>최신 영화 등록 서비스</Li>
